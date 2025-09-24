@@ -9,7 +9,7 @@ import {
 export class Random_num implements INodeType {
 	description: INodeTypeDescription = {
 		// ... (o restante da descrição do nó permanece igual) ...
-		displayName: 'Random Number Generator',
+		displayName: 'True Random Number Generator',
 		name: 'randomNum',
 		group: ['transform'],
 		version: 1,
