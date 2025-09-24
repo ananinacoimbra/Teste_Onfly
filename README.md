@@ -11,9 +11,14 @@ Este guia explica como colocar o projeto para rodar rapidamente usando **Docker*
 
 Antes de começar, certifique-se de que você tem o **Docker Desktop** instalado e rodando em sua máquina.
 
-### Passo 1: Iniciar o Docker
+### Passo 1: Iniciar o Docker e o n8n
 
 Abra o **Docker Desktop** no seu sistema operacional e certifique-se de que ele está completamente inicializado. Você pode confirmar isso pelo ícone na bandeja do sistema.
+Depois instale as extensões de n8n
+
+```bash
+npm install -g n8n
+```
 
 ### Passo 2: Clonar o Repositório
 
