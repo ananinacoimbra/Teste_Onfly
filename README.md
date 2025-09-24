@@ -9,7 +9,7 @@ Este guia explica como colocar o projeto para rodar rapidamente usando **Docker*
 
 ### Pré-requisitos
 
-Antes de começar, certifique-se de que você tem o **Docker Desktop** instalado e rodando em sua máquina.
+Antes de começar, certifique-se de que você tem o **Docker Desktop** instalado e rodando em sua máquina. Você pode encontrar o link de instalação aqui: https://www.docker.com/get-started/
 
 ### Passo 1: Iniciar o Docker e o n8n
 
