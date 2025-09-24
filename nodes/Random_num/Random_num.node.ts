@@ -16,7 +16,7 @@ export class Random_num implements INodeType {
 		version: 1,
 		description: 'Generates a random number using an external API.',
 		defaults: {
-			name: 'Random Number',
+			name: 'True Random Number Generator',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
@@ -37,7 +37,6 @@ export class Random_num implements INodeType {
 			},
 		],
 	};
-
 	async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
 		const items = this.getInputData();
 		const newItems: INodeExecutionData[] = [];
