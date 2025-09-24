@@ -19,7 +19,7 @@ services:
     container_name: n8n
     restart: always
     ports:
-      - "5678:5678"
+      - "5679:5678"
     environment:
       N8N_HOST: localhost
       N8N_PORT: 5678
@@ -36,7 +36,7 @@ services:
     depends_on:
       - postgres
     volumes:
-      - ./n8n_custom:/home/node/.n8n/custom  # <-- aqui vai o seu node Random
+    - ./workflows:/home/node/.n8n/workflows
+    - ./n8n_custom:/home/node/.n8n/custom
 
-volumes:
   postgres_data:
