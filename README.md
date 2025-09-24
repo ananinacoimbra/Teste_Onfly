@@ -29,7 +29,7 @@ Siga os passos abaixo para instalar as dependências, configurar o ambiente e ex
 
 #### 1.1. Instalar as Dependências do Node
 
-Primeiro, navegue até a pasta do conector (`nodes/Random`) e instale as dependências necessárias para o projeto.
+Primeiro, navegue até a pasta do conector (`nodes/Random_num`) e instale as dependências necessárias para o projeto.
 
 ```bash
 cd nodes/Random
@@ -55,7 +55,7 @@ O projeto utiliza o **Docker Compose** para orquestrar a infraestrutura do n8n c
 Para que o n8n reconheça o conector, o código TypeScript precisa ser compilado para JavaScript.
 
 ```bash
-cd nodes/Random
+cd nodes/Random_num
 npm run build
 ```
 
