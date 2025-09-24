@@ -55,7 +55,7 @@ O projeto utiliza o **Docker Compose** para orquestrar a infraestrutura do n8n c
 Para que o n8n reconheça o conector, o código TypeScript precisa ser compilado para JavaScript.
 
 ```bash
-cd nodes/Random
+cd nodes/Random_num
 npm run build
 ```
 
