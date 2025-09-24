@@ -11,6 +11,7 @@ export class Random_num implements INodeType {
 		// ... (o restante da descrição do nó permanece igual) ...
 		displayName: 'True Random Number Generator',
 		name: 'randomNum',
+    icon: 'file:sendGrid.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Generates a random number using an external API.',
